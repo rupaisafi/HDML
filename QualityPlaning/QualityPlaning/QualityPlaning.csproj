@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2294696-C370-4BEF-8335-2EDB9DE6B38D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>QualityPlaning</RootNamespace>
+    <AssemblyName>QualityPlaning</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Booking.cs" />
+    <Compile Include="BookingDetail.cs" />
+    <Compile Include="DyeingPlanDetail.cs" />
+    <Compile Include="DyeingPlan.cs" />
+    <Compile Include="ExportLCPI.cs" />
+    <Compile Include="ExportPI.cs" />
+    <Compile Include="ExportPIDetail.cs" />
+    <Compile Include="FabricParameter.cs" />
+    <Compile Include="FabricType.cs" />
+    <Compile Include="FinishParameter.cs" />
+    <Compile Include="FinishRoute.cs" />
+    <Compile Include="FinishType.cs" />
+    <Compile Include="GreadCode.cs" />
+    <Compile Include="GreyParameter.cs" />
+    <Compile Include="ImportLCPI.cs" />
+    <Compile Include="ImportPI.cs" />
+    <Compile Include="ImportPIDetail.cs" />
+    <Compile Include="MeasurementUnit.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderDetail.cs" />
+    <Compile Include="Plan.cs" />
+    <Compile Include="PlanningOrder.cs" />
+    <Compile Include="ProductionOrder.cs" />
+    <Compile Include="ProductionSet.cs" />
+    <Compile Include="ProductionType.cs" />
+    <Compile Include="DevelopmentUnit.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QualityPlan.cs" />
+    <Compile Include="Speciality.cs" />
+    <Compile Include="Style.cs" />
+    <Compile Include="WarpingPlan.cs" />
+    <Compile Include="WarpingPlanDetail.cs" />
+    <Compile Include="WeavingPlan.cs" />
+    <Compile Include="WeavingPlanDetail.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="PlanningDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

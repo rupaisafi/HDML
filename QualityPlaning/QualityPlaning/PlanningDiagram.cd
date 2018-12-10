@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="QualityPlaning.Plan">
+    <Position X="1.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EgIIAgAAAFAQxgABAQEAwAABIAASACAABAAAgAAAESA=</HashCode>
+      <FileName>Plan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.DevelopmentUnit">
+    <Position X="13.5" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DevelopmentUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.ProductionSet">
+    <Position X="18.5" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>ProductionSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.ProductionOrder">
+    <Position X="1" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>ProductionOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.ProductionType">
+    <Position X="16" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProductionType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.Style">
+    <Position X="21.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAEQIIAgBgAiAAsIUBAAAkAIDmAgAAAQEUCGQICEAA=</HashCode>
+      <FileName>Style.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.QualityPlan">
+    <Position X="3.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAoiAAAAAIIegIYgABBAAAEAMDAAEEAghAAAgSAAAAI=</HashCode>
+      <FileName>QualityPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.FabricType">
+    <Position X="21" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FabricType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.WarpingPlan">
+    <Position X="6.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAgAIAAAAAAAAAAAAAACAAAAAAASARiCA=</HashCode>
+      <FileName>WarpingPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.DyeingPlan">
+    <Position X="11.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAEAAIAAAAAAAAAAAIAAAAAAAAgCAAAAA=</HashCode>
+      <FileName>DyeingPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.WeavingPlan">
+    <Position X="16.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAAwAAAAAACMgAAAAABAAAAAACAIACAogAIAACABAAA=</HashCode>
+      <FileName>WeavingPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.WarpingPlanDetail">
+    <Position X="8.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QQAEAAAAAIAAgAAAAAAAAAEAABAIAAAIAIAggQEAAAA=</HashCode>
+      <FileName>WarpingPlanDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.WeavingPlanDetail">
+    <Position X="18.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAEAAAAAIAAgAAIAAAAAAEAAEAAAAADgJAggAEAAAA=</HashCode>
+      <FileName>WeavingPlanDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.DyeingPlanDetail">
+    <Position X="13.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAGAAAAAIAAAAAAAAAAAAAAAAAAAAAAAIAggAACAAA=</HashCode>
+      <FileName>DyeingPlanDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.GreyParameter">
+    <Position X="26.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAgmQAAAAAERAAAAABBAAEAAEAAAEAAABAAAAAACAQI=</HashCode>
+      <FileName>GreyParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.FabricParameter">
+    <Position X="28.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAKCQAAgAAoMAgAgkABAAAABAQAhBAAABAAAgAABAQA=</HashCode>
+      <FileName>FabricParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.FinishParameter">
+    <Position X="23.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAiCQAAAAAAQAASAAABAAAAAEAAAEAAABAEAAAAAASI=</HashCode>
+      <FileName>FinishParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.Speciality">
+    <Position X="23.5" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Speciality.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.GreadCode">
+    <Position X="11" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GreadCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.MeasurementUnit">
+    <Position X="6" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MeasurementUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.FinishRoute">
+    <Position X="3.5" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FinishRoute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.FinishType">
+    <Position X="8.5" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FinishType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.Booking">
+    <Position X="31.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAASAAIEQQAEMIgABAAgAAAAIQAAEBAAAAQAgCAAAAA=</HashCode>
+      <FileName>Booking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.BookingDetail">
+    <Position X="33.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAACAIIAAAAIGAAoIAAAAEAAACAEAAAQAAEAgBEAACA=</HashCode>
+      <FileName>BookingDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.Order">
+    <Position X="36.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAASAAAAAQAKAKAABAAACACAIQAAEBAAAAQAgAAAAAo=</HashCode>
+      <FileName>Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.OrderDetail">
+    <Position X="38.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJIAAQACkCAoAAAAAECCIVAEAAAAAAEAgQEAICw=</HashCode>
+      <FileName>OrderDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.PlanningOrder">
+    <Position X="41.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAAAEABAAQAAAAAQEAABAAAAQgECAEKAI=</HashCode>
+      <FileName>PlanningOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.ExportPI">
+    <Position X="43.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAYSACIQAAAIEAAABCAgAAAAMQgAEVABADgQAgCEQAE=</HashCode>
+      <FileName>ExportPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.ExportPIDetail">
+    <Position X="46.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAIAAAAAAiAAgoAAAAFAAACAEAAAQAAEAghGAQCA=</HashCode>
+      <FileName>ExportPIDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.ImportPI">
+    <Position X="48.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAQACgCAAAAIgEAAAGBAAAAABACEAAAAEAAA=</HashCode>
+      <FileName>ImportPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.ImportPIDetail">
+    <Position X="51.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAABAAAAgAAAgABAAAAAABAAAAAAAAAEgAgBAAA=</HashCode>
+      <FileName>ImportPIDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.ExportLCPI">
+    <Position X="53.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExportLCPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QualityPlaning.ImportLCPI">
+    <Position X="56.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImportLCPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
